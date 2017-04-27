@@ -12,10 +12,13 @@ $('h1.highlight').text('Amanda');
 $('#employment > .info-title').text('Work Experience');
 
 4.  
-$('#time-travel').parent().remove()
+$('#time-travel').parent().remove();
 
 5.   
-$('body').css('background-color', 'purple')
+$('body').css('background-color', 'purple');
 
 6.  
-$('.highlight').css('color', 'red')
+$('.highlight').css('color', 'red');
+
+7.   
+$('h1').css('font-family', 'monospace');
