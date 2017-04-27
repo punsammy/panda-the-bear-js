@@ -33,4 +33,7 @@ $('form').find('input[name="name"]').attr('placeholder', "identify yourself")
 $('form').find('textarea[name="message"]').attr('placeholder', 'State Your Business');
 
 11.   
-$('form').find('input[name = "name."]').attr('value', "Your Nemesis");
+$('form').find('input[name = "name"]').attr('value', "Your Nemesis");
+
+12.   
+$('form').find('input[name = "email"]').attr('value', "koalathebear@gmail.com");
