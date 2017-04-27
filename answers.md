@@ -45,8 +45,12 @@ $('form').find('input[name = "submit"]').attr('value', 'En garde');
 
 
 #Adding Elements to the DOM
+1.    
 $("img[alt='Pikachu']").clone().appendTo('.portfolio-container');
 
 <!-- Another way of selecting picture -->
 <!-- $('#right-image').children(":first"); -->
 <!-- $("img[title='Pikachu']"); -->
+
+2.  
+for (var i = 0; i <10; i++) { $("img[alt='Pikachu']").clone().appendTo('.portfolio-container'); }
