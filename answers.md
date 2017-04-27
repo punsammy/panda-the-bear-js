@@ -16,3 +16,6 @@ $('#time-travel').parent().remove()
 
 5.   
 $('body').css('background-color', 'purple')
+
+6.  
+$('.highlight').css('color', 'red')
