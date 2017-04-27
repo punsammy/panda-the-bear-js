@@ -13,3 +13,6 @@ $('#employment > .info-title').text('Work Experience');
 
 4.  
 $('#time-travel').parent().remove()
+
+5.   
+$('body').css('background-color', 'purple')
