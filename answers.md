@@ -25,3 +25,6 @@ $('h1').css('font-family', 'monospace');
 
 8.  
 $('.action-icon-bg').css('background-color', 'blue');
+
+9.  
+$('form').find('input[name="name"]').attr('placeholder', "identify yourself")
