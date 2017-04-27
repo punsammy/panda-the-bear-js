@@ -10,3 +10,6 @@ $('h1.highlight').text('Amanda');
 
 3.  
 $('#employment > .info-title').text('Work Experience');
+
+4.  
+$('#time-travel').parent().remove()
