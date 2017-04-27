@@ -22,3 +22,6 @@ $('.highlight').css('color', 'red');
 
 7.   
 $('h1').css('font-family', 'monospace');
+
+8.  
+$('.action-icon-bg').css('background-color', 'blue');
