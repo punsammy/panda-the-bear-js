@@ -7,3 +7,6 @@ descendant selectors (eg. 'header h1'). -->
 
 2.    
 $('h1.highlight').text('Amanda');
+
+3.  
+$('#employment > .info-title').text('Work Experience');
