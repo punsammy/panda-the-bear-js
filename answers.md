@@ -1,3 +1,5 @@
+#Hacking Panda the Bear's Resume
+
 <!-- tag name (eg. 'h1')
 class name (eg. '.special-class')
 id (eg. '#super-special-id')
@@ -40,3 +42,11 @@ $('form').find('input[name = "email"]').attr('value', "koalathebear@gmail.com");
 
 13.   
 $('form').find('input[name = "submit"]').attr('value', 'En garde');
+
+
+#Adding Elements to the DOM
+$("img[alt='Pikachu']").clone().appendTo('.portfolio-container');
+
+<!-- Another way of selecting picture -->
+<!-- $('#right-image').children(":first"); -->
+<!-- $("img[title='Pikachu']"); -->
